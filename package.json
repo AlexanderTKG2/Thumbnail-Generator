@@ -1,0 +1,51 @@
+{
+  "name": "thumbnail-generator",
+  "version": "0.1.0",
+  "description": "Thumbnail generator service test",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "node ./src/index.test.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderTKG2/Thumbnail-Generator.git"
+  },
+  "keywords": [
+    "Azure",
+    "Blob",
+    "Storage",
+    "Thumbnail",
+    "Generation",
+    "FFMPEG",
+    "Sharp",
+    "js"
+  ],
+  "author": "Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderTKG2/Thumbnail-Generator/issues"
+  },
+  "homepage": "https://github.com/AlexanderTKG2/Thumbnail-Generator#readme",
+  "dependencies": {
+    "@azure/identity": "^2.1.0",
+    "@azure/storage-blob": "^12.11.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^1.4.1",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-stream": "^0.7.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.30.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
